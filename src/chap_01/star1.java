@@ -16,6 +16,8 @@ public class star1 {
             System.out.println();
         }
     }
+
+
 }
 // for (int k = 5; k > i; k--) {
 //         System.out.print("2");
