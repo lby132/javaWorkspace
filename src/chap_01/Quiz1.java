@@ -12,6 +12,7 @@ public class Quiz1 {
     }
 
     public static String getHiddenData(String data, int index) {
+        Quiz1 quiz1 = new Quiz1();
         String hiddenData = data.substring(0, index);
 //        for (int i = index; i < data.length(); i++)
         for (int i = 0; i < data.length() - index; i++) {
@@ -23,7 +24,6 @@ public class Quiz1 {
 
 //    public static String getHiddenData(String val, int index) {
 //        return val.replace(val.substring(index), "*");
-//    }
-
+//
 }
 
