@@ -2,7 +2,7 @@ package chap_03;
 
 import chap_03.clean.CleanRunnable;
 
-public class Runnable {
+public class RunnableEx {
     public static void main(String[] args) {
         CleanRunnable cleanRunnable = new CleanRunnable();
         Thread thread = new Thread(cleanRunnable);
